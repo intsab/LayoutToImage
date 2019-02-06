@@ -4,7 +4,7 @@ This Is the Library for Converting View into Image View, It also Stores the file
 <h1>USAGE</h1>
 Step 1- Simple Download the library folder </br>
 Step 2- Import in your project as module </br>
-<h1> For Gradle Project<h1/>
+<h1> For Gradle Project</h1>
  Step 1: Add it in your root build.gradle at the end of repositories:
 	
  ```java
