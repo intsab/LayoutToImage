@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/idToConvert"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#FFFFFF"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/avatar"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:textSize="30dp"
+                   android:textStyle="bold"
+                   android:text="Its Me Abc"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:layout_marginRight="10dp"
+                   android:textSize="14dp"
+                   android:textStyle="bold"
+                   android:text="I am Want to save this screen as image in my device."/>
+           </LinearLayout>
+       </LinearLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorAccent"
+           android:textSize="16sp"
+           android:textColor="#FFFFFF"
+           android:padding="10dp"
+           android:text="Here are some Icons:"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:src="@drawable/social_icons"/>
+       <Button
+           android:id="@+id/convertMe"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Convert me"/>
+   </LinearLayout>
+
+</RelativeLayout>
