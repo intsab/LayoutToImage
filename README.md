@@ -4,8 +4,25 @@ This Is the Library for Converting View into Image View, It also Stores the file
 <h1>USAGE</h1>
 Step 1- Simple Download the library folder </br>
 Step 2- Import in your project as module </br>
-
+<h1> Gradle</>
     
+ ```java
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+```
+ add this in your project level gradle
+   
+```java
+    dependencies {
+	        implementation 'com.github.intsab:LayoutToImage:Tag'
+	}
+    
+```
    in your gradle file of project. (if not exist*)</br>
 <h1>Post Request</h1>
 
