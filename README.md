@@ -20,7 +20,7 @@ Step 2: Add the dependency
    
 ```java
     dependencies {
-	        implementation 'com.github.intsab:LayoutToImage:Tag'
+	        implementation 'com.github.intsab:LayoutToImage:1.0'
 	}
     
 ```
